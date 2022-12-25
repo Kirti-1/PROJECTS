@@ -1,0 +1,6 @@
+scraping - parsing the HTML and scraping out the useful displayed information.
+1. request - aka HTTP Client
+2. cheerio - aka Parser
+cheerio provides fast, flexible and lean implementation of core jQuery designed specifically for the server.
+chheerio parses markup and provides an API for traversing/ manipulating the resulting data structure.
+

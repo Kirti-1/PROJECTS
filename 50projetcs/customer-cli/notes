@@ -1,0 +1,33 @@
+cross platform - doesn't matter which system you're on.
+
+CLI(Command Line Interface) App with Node.js. We'll be able to run CRUD functionality on customer stored in a MongoDB database
+using Moongoose.
+
+commander.js - for CLI tools 
+inquirer.js - for user experience
+
+#Initialize Node package
+
+npm init - to initialize the node package - package.json
+
+#Create symlink
+
+npm link - create symbolic link (symlink)
+symbolic link contains the reference of the another file or directory.
+sometimes called soft links.
+It's a type of file that points to another file or a folder on your computer.
+
+#dependencies
+
+##Moongoose
+
+npm install --save mongoose
+mongoose - ORM that helps us interact with MongoDB
+"--save" will save the dependencies - not required if you're using npm5 or later
+
+npm install --save commander
+commander - will let you do a lot of things with CLI.
+
+npm install --save inquirer
+for user experience
+

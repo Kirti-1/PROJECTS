@@ -1,0 +1,26 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "_WEB SCRAPPING_\r ## scrape the imdb content, the most anticipated movies along with its storyline.\r ![image](./imdb-content.PNG)",
+  "main": "imdb.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirti-1/Web-Scrapping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirti-1/Web-Scrapping/issues"
+  },
+  "homepage": "https://github.com/Kirti-1/Web-Scrapping#readme"
+}
