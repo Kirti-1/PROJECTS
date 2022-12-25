@@ -1,0 +1,12 @@
+Java is peculiar as it expect a boolean value in "if" condition
+        "int" can't be converted to boolean and "if" expects a boolean value
+        You can't convert as this is a lossy conversion, we're losing value after point value
+        it requires explicit conversion
+
+
+/*
+        String []st  = "102034".split("");
+        for(String s:st){
+            System.out.println(s);
+        }
+        */

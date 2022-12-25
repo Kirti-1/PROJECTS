@@ -1,0 +1,7 @@
+Single resourse and multiple consumer and want to serve them in first come first serve manner.
+FCFS
+FIFO(First In First Out).
+Synchronisation between slow and High devices.
+In Operating system(semaphores, FCFS, scheduling, spooling, buffer for devices like keyboard).
+In computer Networks(Router/Switches,Mail queues)
+variations: dequeue, priority queues, doubly ended queues, doubly ended priority queues.

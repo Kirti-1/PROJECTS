@@ -1,0 +1,63 @@
+*class is used to describe properties and behavious of an object.
+*property names and values.
+* behaviour means action
+*It's a process of inherting behaviour and properties of existing class into a new class.
+BASE CLASS/ PARENT CLASS 
+DERIVED CLASS/ CHILD CLASS
+
+class Base_class{
+
+};
+class derived_class : visibity_mode Base_class
+{
+
+};
+Single inheritance
+Multilevel inheritance - Transitive relationship
+Multiple inheritance
+Hierarchical inheritance - Tree
+Hybrid inheritance
+
+Visibity Modes - private, protected, public
+
+Availability v/s Accessibility
+private members are Available but not Accessible
+visibity_mode :
+privte - public and protected - private for grandchild (Multilevel inheritance). 
+protected - public and protected - protected for grandchild (Multilevel inheritance).
+public - protected (protected for grandchild) and public (public for grandchild).
+
+'is-a','has-a' relationship -   
+Association - the relationship between two entities (classes)
+Association types - 
+1. Aggregation  
+2. Composition 
+3. Inheritance - 'is-a'
+**is-a relationship is always implemented as a public inheritance,
+but why?? 
+
+
+Constructor in Inheritance -
+when a child's object is formed, constructor is formed the calling order is from child to parent but the execution order will be from parent to child.
+Destructor in inheritance - 
+calling order is same as constructorin inheritance but in case of execution the order will be - child then parent.
+not done by writing colon compliler will do itss own you don't have to worry about it.
+
+
+ 
+            - THIS POINTER - 
+#this is a keyword.
+# this is the  local object pointer in every instance member function
+containing address of caller object.
+# resolves the name conflict.
+# this pointer can't be modified.
+# it is used to refer caller object in member function.
+
+
+Base class pointer - 
+base class pointer  can point to the object of any of its descendant class.
+but the converse is not true.
+
+        - Early Binding v/s Late Binding -
+
+

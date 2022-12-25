@@ -1,0 +1,28 @@
+Objective of pickle module:
+-serailizing and deserializing an object.
+-modules available 
+marshal, pickle, json
+QUES: If class A doesn't implement serializable but a subclass B implements serializable, will the fields of class A be serialized when class B is serialized??
+Only the fields of serializable objects are written out and restored. The object may be restored only if it has no-arg constructor that will initialize the fields of non-serializable supertypes, If the subclass has access to the state of the superclass it can implement writeObjecr and readObject to save and restore that state.
+
+so, if the subclass has access to the fields of it's non-serializable superclass(es) it can use the writeObject and readObject protocol to implement serialization. Otherwise, there will be fields that won't be possible to serialize.
+ 
+
+marshal - oldest one amongst all, used to read and write the compiled bytecode of python modules.
+marshall can be used to serialize python objects, but it's not recommended to use. It's mainly used by the interpreter 
+
+every entity has some metadata- attributes and functionality - methods
+
+
+id and type - 
+the id function returns a unique id for the specified object. All object in python has it's own unique id.
+The id is assigned to an object when it's created.
+The id is the object's memory address, and will be different each time you run it.
+ Immutabke objects are quicker to access that mutable object, Also immutable objects are fundamentally expensive to "change" because doing so involves vreating a copy.
+when you reassigne the value of an immutable object, it actually creates a new instance of that object.
+
+Let's understand the data types of python how they are stored and manipulated. 
+Python is dynamically typed language.
+python's data type distributed in two categories - mutable and immutable class
+mutable - list, sets, dictionary
+immutable - numbers- (int, float), strings, tuple

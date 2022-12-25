@@ -1,0 +1,66 @@
+
+        /*
+        Initialization -
+        data-type variableName = content/value/data;
+        */
+        int firstNumber = 10;
+        int secondNumber = 20;
+        int sum = firstNumber + secondNumber;
+        System.out.println(sum);
+
+
+
+class Main {
+    public static int sum = 0;
+    public static void main(String[] args){
+        /*
+        What are variables??
+        -Placeholder
+        -name given to the block of memory in which our content is stored.
+        -we'll be able to use the content using the name given till the end of main.
+        -don't use reserved keywords(61) as variable names. Example, int, float, break, main, continue,
+        switch, true, false etc.
+        */
+//        boolean true = true;
+
+    }
+    public static void addition(){
+        System.out.println(sum);
+    }
+}
+
+
+
+/*
+        What are variables??
+        -Placeholder
+        -name given to the block of memory in which our data is stored.
+        -we'll be able to use the content using the name given till the end of main.
+        -don't use reserved keywords(61) as variable names. Example, int, float, break, main, continue,
+        switch, true, false etc.
+        */
+//        boolean true = true;
+        /*
+        Initialization -
+        data-type variableName = data;
+        camel-case convention
+        eg: myNumber, helloMessage, sumOfTwoNumbers, compoundInterestCalculated and so on.
+        */
+        int number = 10;
+        System.out.println(number);
+
+
+
+
+class Main {
+    public static int sum = 0;
+    public static void main(String[] args){
+        int firstNumber = 10;
+        int secondNumber = 20;
+        sum = firstNumber + secondNumber;
+        additionAnswer();
+    }
+    public static void additionAnswer(){
+        System.out.println(sum);
+    }
+}
